@@ -63,3 +63,11 @@ img {
 .botoes:active{
     opacity: 0.6;
 }
+
+#reset{
+    color: black;
+}
+
+#stop{
+    color: red;
+}
