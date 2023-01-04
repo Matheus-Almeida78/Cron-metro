@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cronometro {
+    background: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    text-align: center;
+}
+
+.numeros {
+    width: 100px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.numero-verde {
+    color: #c4f800;
+}
+
+#caixa-botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes {
+    background: white;
+    color: #b8e418;
+    padding: 6px 16px;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.botoes:hover{
+    opacity: 0.8;
+}
+
+.botoes:active{
+    opacity: 0.6;
+}
